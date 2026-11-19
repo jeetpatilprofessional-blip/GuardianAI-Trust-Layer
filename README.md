@@ -1,7 +1,8 @@
-# GuardianAI – Enterprise AI Agent Governance Platform
-> **AMEX Trust Layer for Autonomous Financial Agents**
+# GuardianAI – AI Agent Governance Platform
 
-GuardianAI is a production-grade enterprise governance, security, and observability platform representing a real-time control layer for autonomous AI agents operating within financial institutions (such as American Express). The platform ensures every autonomous agent transaction is secure, authorized, compliant, explainable, and auditable.
+> Independent portfolio prototype exploring governance, security controls, and observability for autonomous financial agents. This project is not affiliated with or endorsed by American Express (AMEX).
+
+GuardianAI is a prototype control layer for autonomous AI agents in financial-style workflows. It demonstrates policy checks, risk signals, human review, explainability, and audit-oriented design. The repository does not establish production deployment, regulatory compliance, or real financial-institution integration.
 
 ---
 
