@@ -98,3 +98,12 @@ npm run dev -- --port 5173
 - **High-Contrast Dark Mode & Crisp Light Mode**: Persistent theme switcher with custom `.light-mode` high-contrast CSS design tokens.
 - **Glassmorphism & Micro-Animations**: Smooth 200ms transitions, hover card elevation, and pulse status rings.
 - **Non-Blurring Overlay Drawer**: Governance Copilot drawer operates as a floating side-drawer with zero backdrop blur in Light Mode.
+
+
+## Prototype Security & Validation Notes
+
+- This is a local portfolio prototype, not a production financial control system. The backend API routes currently do not consistently enforce authentication/authorization; frontend role-based visibility is not a substitute for server-side access control.
+- The default signing key and seeded administrator credentials in the local demo are insecure by design and must be replaced before any deployment. Do not expose this instance to the internet or use real financial/customer data.
+- CORS is configured permissively for local development and should be restricted for a deployment.
+- Dashboard telemetry, business KPIs, resilience metrics, and several timeline values are simulated/demo values and are not independently measured operational evidence.
+- Automated tests are present, but this repository audit has not executed the test suite or a complete frontend/backend runtime smoke test. No claim of end-to-end verification is made.
