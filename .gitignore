@@ -146,3 +146,11 @@ vite.config.ts.timestamp-*
 .venv/
 venv/
 backend/.venv/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+# Local SQLite databases
+guardian_ai.db
+*.sqlite
+*.sqlite3
